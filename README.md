@@ -5,8 +5,15 @@
   -  **NOT** Java 9+ - the build will fail with a newer version of Java
 
 ### Setup
- place all files in a folder named `imagefinder`
- open a terminal window and navigate to the root directory `imagefinder`. To build the project, run the command:
+
+ place pom.xml,test-links.txt, and pom.xml~ in a folder named `imagefinder`
+ in this folder, create a folder called `src`
+ in this folder, create a folder called `main`
+ in this folder, create two folders: `java` and `webapp`
+ in webapp, place favicon.ico, index.html, web.xml, manifest.mf, and index.html~.
+ in the java folder, make another folder called `imagefinder`
+ in this folder, place the ImageFinder.java.
+ you are now ready to open a terminal window and navigate to the root directory `imagefinder`. To build the project, run the command:
 
 >`mvn package`
 
